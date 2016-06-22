@@ -30,15 +30,10 @@ public class DocumentFactory implements BaseDocumentFactory {
         task.setId(1);
         task.setNameDoc("имя документа");
         task.setText("текст поручения");
-     //   task.setRegisterNumOfDoc(1);
-        //задаем дату  регистрации документа
-            Calendar cal = Calendar.getInstance();
-     //       cal.set(2014, 00, 10);
-     //   task.setDateOfRegistration(cal.getTime());
         task.setAuthor("Батырханов");
 
-
         //задаем дату  выдачи поручения
+            Calendar cal = Calendar.getInstance();
             cal.set(2014, 00, 11);
         task.setData(cal.getTime());
 
@@ -57,19 +52,13 @@ public class DocumentFactory implements BaseDocumentFactory {
         incoming.setId(1);
         incoming.setNameDoc("имя входящего документа");
         incoming.setText("текст входящего документа");
-      //  incoming.setRegisterNumOfDoc(2);
-        //задаем дату  регистрации документа
-        Calendar cal = Calendar.getInstance();
-   //     cal.set(2014, 01, 10);
-    //    incoming.setDateOfRegistration(cal.getTime());
         incoming.setAuthor("Барышников");
-
 
         incoming.setSender("Бубликов");
         incoming.setDestination("Пирожков");
         incoming.setIncomeNumber(13);
-
         //задаем дату  исходящей  регистрации
+        Calendar cal = Calendar.getInstance();
         cal.set(2014, 01, 11);
         incoming.setIncomeDateOfRegistration(cal.getTime());
 
@@ -82,14 +71,6 @@ public class DocumentFactory implements BaseDocumentFactory {
         outgoing.setId(1);
         outgoing.setNameDoc("имя исходящего документа");
         outgoing.setText("текст исходящего документа");
-     //   outgoing.setRegisterNumOfDoc(3);
-
-
-        //задаем дату  регистрации документа
-   //     Calendar cal = Calendar.getInstance();
-   //     cal.set(2014, 03, 10);
-
-   //     outgoing.setDateOfRegistration(cal.getTime());
         outgoing.setAuthor("Борзилов");
 
         outgoing.setDeliveryMethod("Пуговкин");
