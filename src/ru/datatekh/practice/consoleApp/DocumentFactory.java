@@ -7,8 +7,6 @@ import java.util.*;
 
 public class DocumentFactory implements BaseDocumentFactory {
 
-
-
     @Override
     public Document createDocument(String type) {
 
