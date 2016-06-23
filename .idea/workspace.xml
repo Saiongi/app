@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fafa8460-6bfe-42bb-bec4-212d90d41e0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocFieldsStorage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/app/ru/datatekh/practice/consoleApp/DocService.class" afterPath="$PROJECT_DIR$/out/production/app/ru/datatekh/practice/consoleApp/DocService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/app/ru/datatekh/practice/consoleApp/DocumentFactory.class" afterPath="$PROJECT_DIR$/out/production/app/ru/datatekh/practice/consoleApp/DocumentFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/app/ru/datatekh/practice/consoleApp/TestDoc.class" afterPath="$PROJECT_DIR$/out/production/app/ru/datatekh/practice/consoleApp/TestDoc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocFieldsStorage.java" afterPath="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocFieldsStorage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocService.java" afterPath="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/TestDoc.java" afterPath="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/TestDoc.java" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,8 +29,8 @@
       <file leaf-file-name="Document.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/Document.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="62" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="62" />
+            <state relative-caret-position="-482">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -45,8 +39,8 @@
       <file leaf-file-name="DocumentFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocumentFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -62,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DocService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#297#305#0" expanded="true" />
@@ -75,17 +69,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocFieldsStorage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DocFieldsStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocFieldsStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="198">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#638#655#0" expanded="true" />
-                <element signature="e#716#733#0" expanded="true" />
-                <element signature="e#791#808#0" expanded="true" />
-                <element signature="e#869#886#0" expanded="true" />
+                <element signature="e#627#643#0" expanded="true" />
+                <element signature="e#701#717#0" expanded="true" />
+                <element signature="e#780#796#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,8 +170,8 @@
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/Document.java" />
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocumentFactory.java" />
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/TestDoc.java" />
-        <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocService.java" />
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocFieldsStorage.java" />
+        <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocService.java" />
       </list>
     </option>
   </component>
@@ -658,12 +651,12 @@
       <workItem from="1466409205303" duration="6921000" />
       <workItem from="1466481873341" duration="12877000" />
       <workItem from="1466565100992" duration="31931000" />
-      <workItem from="1466656066672" duration="6247000" />
+      <workItem from="1466656066672" duration="8825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57976000" />
+    <option name="totallyTimeSpent" value="60554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -953,14 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="62" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/Incoming.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -971,14 +956,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocService.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/Document.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#305#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-482">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -992,22 +974,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocumentFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocFieldsStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="198">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#638#655#0" expanded="true" />
-            <element signature="e#716#733#0" expanded="true" />
-            <element signature="e#791#808#0" expanded="true" />
-            <element signature="e#869#886#0" expanded="true" />
+            <element signature="e#627#643#0" expanded="true" />
+            <element signature="e#701#717#0" expanded="true" />
+            <element signature="e#780#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#305#0" expanded="true" />
           </folding>
         </state>
       </provider>

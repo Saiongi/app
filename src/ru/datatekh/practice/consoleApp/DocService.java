@@ -23,6 +23,7 @@ public class DocService {
         for (int i=0;i<10;i++) regNums[i]="ном"+String.valueOf((int)(Math.random()*5));
         globalIterator = 0;
 
+        
     }
 
     public void regDoc(Document doc) throws DocumentExistsException{
@@ -54,7 +55,7 @@ public class DocService {
     public Document createDoc(String type){
        Document doc = documentFactory.createDocument(type);
 
-            fillDoc();
+
 
 
         try {
