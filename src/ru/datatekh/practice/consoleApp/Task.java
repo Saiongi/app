@@ -6,7 +6,7 @@ package ru.datatekh.practice.consoleApp;
 
 import java.util.Date;
  class Task extends Document  {
-    private Date data;  //дата выдачи поручения;
+    private Date date;  //дата выдачи поручения;
     private Date  period; //срок исполнения поручения; - до такой то даты
     private String executor; // ответственный исполнитель;
     private boolean control; // признак контрольности;
@@ -14,11 +14,11 @@ import java.util.Date;
 
 
 
-    public Date getData(){
-        return this.data;
+    public Date getDate(){
+        return this.date;
     }
-    public void setData(Date data) {
-        this.data = data;
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     public Date getPeriod(){

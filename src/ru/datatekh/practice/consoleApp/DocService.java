@@ -1,7 +1,5 @@
 package ru.datatekh.practice.consoleApp;
 
-import java.util.Calendar;
-
 import java.util.HashSet;
 
 /**
@@ -20,17 +18,12 @@ public class DocService {
 
     public DocService(){
         documentFactory = new DocumentFactory();
-      /*  regNums = new String[10];
-        for (int i=0;i<10;i++) regNums[i]="ном"+String.valueOf((int)(Math.random()*5));
-        globalIterator = 0;
-       */
+
         docFieldsStorage = new DocFieldsStorage();
     }
 
     public void regDoc(Document doc) throws DocumentExistsException{
-       // String regNom = "ном"+String.valueOf(Math.random()*10);
-       //     String regNom = regNums[globalIterator];
-         //   globalIterator++;
+
         String regNom = docFieldsStorage.getRegisterNumOfDoc();
         if (regNumbers.contains(regNom)){
 
@@ -38,15 +31,10 @@ public class DocService {
 
         } else{
 
-            doc.setRegisterNumOfDoc(regNom);
-            regNumbers.add(regNom);
+            doc.setRegisterNumOfDoc(regNom);//добавляем документу рег номер
+            regNumbers.add(regNom);// добавляем рег номер в коллекцию уже существующих рег номеров
+            doc.setDateOfRegistration(docFieldsStorage.getDate());//задаем дату
 
-            //задаем дату
-
-            Calendar cal = Calendar.getInstance();
-            cal.set(2014, 01, 10);
-
-            doc.setDateOfRegistration(cal.getTime());
         }
     }
 
