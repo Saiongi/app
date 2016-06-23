@@ -20,21 +20,18 @@ public class DocService {
 
     public DocService(){
         documentFactory = new DocumentFactory();
-        regNums = new String[10];
+      /*  regNums = new String[10];
         for (int i=0;i<10;i++) regNums[i]="ном"+String.valueOf((int)(Math.random()*5));
         globalIterator = 0;
-
+       */
         docFieldsStorage = new DocFieldsStorage();
     }
 
     public void regDoc(Document doc) throws DocumentExistsException{
-
-
-
-
        // String regNom = "ном"+String.valueOf(Math.random()*10);
-            String regNom = regNums[globalIterator];
-            globalIterator++;
+       //     String regNom = regNums[globalIterator];
+         //   globalIterator++;
+        String regNom = docFieldsStorage.getRegisterNumOfDoc();
         if (regNumbers.contains(regNom)){
 
             throw new DocumentExistsException("Exception! Document with this number already exists!");

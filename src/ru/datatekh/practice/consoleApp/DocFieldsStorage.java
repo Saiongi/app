@@ -13,8 +13,9 @@ public class DocFieldsStorage {
     private int id;                         //	идентификатор документа;
     private String nameDoc;                 // название документа;
     private String text;                    // текст документа;
-  //  private String registerNumOfDoc;    //регистрационный номер документа;
     private String author;                  //автор документа.
+    private Date dateOfRegistration;        //дата регистрации документа
+    private String registerNumOfDoc;        //регистрационный номер документа;
     private int idStorage=0;
 
 
@@ -49,10 +50,16 @@ public class DocFieldsStorage {
             authorDocStorage.put(5,"Батырханов");
 
         }
-        public int getId(){
+            public int getId(){
             idStorage++;
             return idStorage;
-        }
+            }
+
+            public String getRegisterNumOfDoc(){
+                String regNom = "ном"+String.valueOf((int)(Math.random()*10));
+                return regNom;
+            }
+
 
         public void saveDocField(Document doc){
             doc.setText(textStorage.get((int)(Math.random()*5)));

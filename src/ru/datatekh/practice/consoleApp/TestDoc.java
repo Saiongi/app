@@ -26,8 +26,8 @@ public class TestDoc {
         int p;
         for (int i=0; i<30;i++) {
             p = (int) (Math.random() * 3);
-            Document doc= docService.createDoc(typeDoc[p]);
-            if(doc!=null){
+            Document doc = docService.createDoc(typeDoc[p]);
+            if(doc != null){
                 allDoc.add(doc);
 
             }
