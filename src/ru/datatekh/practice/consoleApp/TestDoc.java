@@ -24,7 +24,7 @@ public class TestDoc {
 
         HashSet<Document> allDoc = new HashSet<Document>();
         int p;
-        for (int i=0; i<10;i++) {
+        for (int i=0; i<30;i++) {
             p = (int) (Math.random() * 3);
             Document doc= docService.createDoc(typeDoc[p]);
             if(doc!=null){
