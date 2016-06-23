@@ -18,6 +18,7 @@ public class DocFieldsStorage {
     HashMap<Integer, String> authorDocStorage = new HashMap<Integer, String>(6);
     HashMap<Integer, String> deliveryMethodStorage = new HashMap<Integer, String>(6);
 
+
     public DocFieldsStorage() {
 
 
@@ -72,7 +73,9 @@ public class DocFieldsStorage {
 
     public Date generateDate(){
         Calendar cal = Calendar.getInstance();
-        cal.set(2014, 01, 11);
+        int month=(int)(Math.random()*12);
+        int day=(int)(Math.random()*29+1);
+        cal.set(2014, month, day);
         Date date = cal.getTime();
         return date;
     }
@@ -94,13 +97,13 @@ public class DocFieldsStorage {
                 ((Incoming) doc).setSender(authorDocStorage.get((int)(Math.random()*5)));
                 ((Incoming) doc).setDestination(authorDocStorage.get((int)(Math.random()*5)));
                 ((Incoming) doc).setIncomeNumber((int)(Math.random()*5));
-                ((Incoming) doc).setIncomeDateOfRegistration(getDate());
+                ((Incoming) doc).setIncomeDateOfRegistration(generateDate());
             }else if (doc instanceof Outgoing){
                 ((Outgoing) doc).setDestination(authorDocStorage.get((int)(Math.random()*5)));
                 ((Outgoing) doc).setDeliveryMethod(deliveryMethodStorage.get((int)(Math.random()*5)));
             }else if (doc instanceof Task){
-                ((Task) doc).setDate(getDate());
-                ((Task) doc).setPeriod(getDate());
+                ((Task) doc).setDate(generateDate());
+                ((Task) doc).setPeriod(generateDate());
                 ((Task) doc).setExecutor(authorDocStorage.get((int)(Math.random()*5)));
                 ((Task) doc).setControl(getControl());
                 ((Task) doc).setControllerName(authorDocStorage.get((int)(Math.random()*5)));
