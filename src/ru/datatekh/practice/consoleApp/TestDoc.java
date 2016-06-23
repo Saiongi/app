@@ -1,5 +1,8 @@
 package ru.datatekh.practice.consoleApp;
 
+import java.util.HashMap;
+import java.util.HashSet;
+
 /**
  * Created by Света on 21.06.2016.
  */
@@ -19,11 +22,15 @@ public class TestDoc {
         DocService docService = new DocService();
 
 
-        Document[] allDoc = new Document[20];
+        HashSet<Document> allDoc = new HashSet<Document>();
         int p;
-        for (int i=0; i<20;i++) {
+        for (int i=0; i<10;i++) {
             p = (int) (Math.random() * 3);
-            allDoc[i] = docService.createDoc(typeDoc[p]);
+            Document doc= docService.createDoc(typeDoc[p]);
+            if(doc!=null){
+                allDoc.add(doc);
+
+            }
             //allDoc[i] = docs.createDocument(typeDoc[p]);
             p = 0;
         }
