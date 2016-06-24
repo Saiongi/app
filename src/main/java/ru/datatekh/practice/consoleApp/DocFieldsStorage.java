@@ -1,5 +1,10 @@
 package ru.datatekh.practice.consoleApp;
 
+import ru.datatekh.practice.consoleApp.model.document.Document;
+import ru.datatekh.practice.consoleApp.model.document.Incoming;
+import ru.datatekh.practice.consoleApp.model.document.Outgoing;
+import ru.datatekh.practice.consoleApp.model.document.Task;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Calendar;

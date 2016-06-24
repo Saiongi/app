@@ -1,16 +1,22 @@
-package ru.datatekh.practice.consoleApp;
+package ru.datatekh.practice.consoleApp.model.document;
 
 /**
  * Created by Света on 20.06.2016.
  */
+import ru.datatekh.practice.consoleApp.model.document.Document;
+
 import java.util.Date;
-public class Incoming extends Document  {
+public class Incoming extends Document {
    private String sender;  //отправитель;
    private String destination; //адресат;
    private int incomeNumber; //исходящий номер;
    private Date incomeDateOfRegistration; //исходящая дата регистрации.
 
 
+   @Override
+   public String getTable() {
+      return null;
+   }
 
    public String getSender(){
       return this.sender;

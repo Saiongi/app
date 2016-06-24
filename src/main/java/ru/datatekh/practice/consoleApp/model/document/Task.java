@@ -1,20 +1,25 @@
-package ru.datatekh.practice.consoleApp;
+package ru.datatekh.practice.consoleApp.model.document;
 
 /**
  * Created by Света on 20.06.2016.
  */
 
+import ru.datatekh.practice.consoleApp.model.document.Document;
+
 import java.util.Date;
- class Task extends Document  {
+ public class Task extends Document {
     private Date date;  //дата выдачи поручения;
     private Date  period; //срок исполнения поручения; - до такой то даты
     private String executor; // ответственный исполнитель;
     private boolean control; // признак контрольности;
     private String controllerName;// контролер поручения.
 
+     @Override
+     public String getTable() {
+         return null;
+     }
 
-
-    public Date getDate(){
+     public Date getDate(){
         return this.date;
     }
     public void setDate(Date date) {

@@ -1,12 +1,14 @@
 
-package ru.datatekh.practice.consoleApp;
+package ru.datatekh.practice.consoleApp.model.document;
 
 /**
  * Created by Света on 20.06.2016.
  */
+import ru.datatekh.practice.consoleApp.model.Storable;
+
 import java.util.Date;
 
-public abstract class Document implements Comparable    {
+public abstract class Document implements Comparable, Storable {
 
     private int id;                         //	идентификатор документа;
     private String nameDoc;                 // название документа;
@@ -15,6 +17,11 @@ public abstract class Document implements Comparable    {
     private Date dateOfRegistration;      //дата регистрации документа;
     private String author;                  //автор документа.
 
+
+    @Override
+    public String getTable() {
+        return null;
+    }
 
     public int getId(){
         return this.id;

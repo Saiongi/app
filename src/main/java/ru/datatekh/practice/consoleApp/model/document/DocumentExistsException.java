@@ -1,4 +1,4 @@
-package ru.datatekh.practice.consoleApp;
+package ru.datatekh.practice.consoleApp.model.document;
 
 /**
  * Created by Света on 22.06.2016.
@@ -6,7 +6,7 @@ package ru.datatekh.practice.consoleApp;
 public class DocumentExistsException extends Exception {
 
 
-    DocumentExistsException(String msgText){
+   public DocumentExistsException(String msgText){
         super(msgText);
     }
 

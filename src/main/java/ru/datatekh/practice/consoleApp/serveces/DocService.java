@@ -1,4 +1,9 @@
-package ru.datatekh.practice.consoleApp;
+package ru.datatekh.practice.consoleApp.serveces;
+
+import ru.datatekh.practice.consoleApp.DocFieldsStorage;
+import ru.datatekh.practice.consoleApp.model.document.Document;
+import ru.datatekh.practice.consoleApp.model.document.DocumentExistsException;
+import ru.datatekh.practice.consoleApp.serveces.factories.DocumentFactory;
 
 import java.util.HashSet;
 
@@ -17,7 +22,7 @@ public class DocService {
         docFieldsStorage = new DocFieldsStorage();
     }
 
-    public void regDoc(Document doc) throws DocumentExistsException{
+    public void regDoc(Document doc) throws DocumentExistsException {
 
         String regNom = docFieldsStorage.getRegisterNumOfDoc();
         if (regNumbers.contains(regNom)){
@@ -41,4 +46,15 @@ public class DocService {
         return null;
     }
 
+    public Document createDoc(Class aClass) {
+        Document doc = documentFactory.createDocument(aClass);
+        docFieldsStorage.saveDocField(doc);
+        try {
+            regDoc(doc);
+            return doc;
+        } catch (DocumentExistsException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

@@ -1,11 +1,19 @@
-package ru.datatekh.practice.consoleApp;
+package ru.datatekh.practice.consoleApp.model.document;
+
+import ru.datatekh.practice.consoleApp.model.document.Document;
 
 /**
  * Created by Света on 20.06.2016.
  */
-public class Outgoing extends Document{
+public class Outgoing extends Document {
   private String destination;  //адресат
   private String deliveryMethod;  //способ доставки
+
+
+  @Override
+  public String getTable() {
+    return null;
+  }
 
   public String getDestination(){
     return this.destination;
