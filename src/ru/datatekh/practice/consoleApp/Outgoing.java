@@ -21,5 +21,15 @@ public class Outgoing extends Document{
     this.deliveryMethod = deliveryMethod;
   }
 
+  @Override
+  public String toString() {
+
+    String str = "идентификатор документа:"+this.getId()+"\nНазвание документа:"+this.getNameDoc()+
+            "\nТекст документа:"+ this.getText()+"\nРегистрационный номер документа:"+this.getRegisterNumOfDoc()+
+            "\nДата регистрации документа:"+ this.getDateOfRegistration()+"\nАвтор:"+this.getAuthor()+
+            "\nАдресат:"+destination+ "\nСпособ доставки"+deliveryMethod;
+
+    return str;
+  }
 
 }

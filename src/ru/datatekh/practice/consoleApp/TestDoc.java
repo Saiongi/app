@@ -24,17 +24,20 @@ public class TestDoc {
 
         HashSet<Document> allDoc = new HashSet<Document>();
         int p;
+        Document docum;
         for (int i=0; i<30;i++) {
             p = (int) (Math.random() * 3);
             Document doc = docService.createDoc(typeDoc[p]);
             if(doc != null){
                 allDoc.add(doc);
 
+             //   docum = (Document)doc;
+             //   docum.toString();
             }
             //allDoc[i] = docs.createDocument(typeDoc[p]);
             p = 0;
         }
-        for (Document d: allDoc) System.out.println(d.getClass());
+        for (Document d: allDoc) System.out.println(d);
     }
 
 

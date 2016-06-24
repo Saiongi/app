@@ -5,7 +5,9 @@ package ru.datatekh.practice.consoleApp;
  * Created by Света on 20.06.2016.
  */
 import java.util.Date;
-public abstract class Document implements Comparable  {
+
+
+public abstract class Document implements Comparable   {
 
     private int id;                         //	идентификатор документа;
     private String nameDoc;                 // название документа;
@@ -14,7 +16,13 @@ public abstract class Document implements Comparable  {
     private Date dateOfRegistration;      //дата регистрации документа;
     private String author;                  //автор документа.
 
-
+    @Override
+    public String toString() {
+        String str ="идентификатор документа:"+id+"\nНазвание документа:"+nameDoc+"\nТекст документа:"+
+                text+"\nРегистрационный номер документа:"+registerNumOfDoc+"\nДата регистрации документа:"+
+                dateOfRegistration+"\nАвтор:"+author;
+        return str;
+    }
 
     public int getId(){
         return this.id;
@@ -82,6 +90,10 @@ public abstract class Document implements Comparable  {
         return 0;
 
     }
+
+
+
+
 
 
 

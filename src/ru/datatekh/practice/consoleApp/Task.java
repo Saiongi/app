@@ -48,4 +48,20 @@ import java.util.Date;
     public void setControllerName(String controllerName) {
         this.controllerName = controllerName;
     }
-}
+
+     @Override
+     public String toString() {
+         String cont;
+         if(control) {
+             cont = "Контрольный";
+         }else {
+             cont = "Неконтрольный";
+         }
+         String str = "идентификатор документа:"+this.getId()+"\nНазвание документа:"+this.getNameDoc()+"\nТекст документа:"+
+                 this.getText()+"\nРегистрационный номер документа:"+this.getRegisterNumOfDoc()+"\nДата регистрации документа:"+
+                 this.getDateOfRegistration()+"\nАвтор:"+this.getAuthor()+"\nДата выдачи поручения:"+date+
+                 "\nСрок исполнения получения:"+period+"\nОтветственный исполнитель:"+executor+"\nПризнак контрольности:"+cont+
+                 "\nКонтроллер поручения"+controllerName;
+         return str;
+     }
+ }
