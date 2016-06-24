@@ -15,14 +15,15 @@ public class Incoming extends Document  {
    public String getSender(){
       return this.sender;
    }
+
    public void setSender(String sender) {
       this.sender = sender;
    }
 
-
    public String getDestination(){
       return this.destination;
    }
+
    public void setDestination(String destination) {
       this.destination = destination;
    }
@@ -30,6 +31,7 @@ public class Incoming extends Document  {
    public int getIncomeNumber(){
       return this.incomeNumber;
    }
+
    public void setIncomeNumber(int incomeNumber) {
       this.incomeNumber = incomeNumber;
    }
@@ -37,19 +39,18 @@ public class Incoming extends Document  {
    public Date getIncomeDateOfRegistration(){
       return this.incomeDateOfRegistration;
    }
+
    public void setIncomeDateOfRegistration(Date incomeDateOfRegistration) {
       this.incomeDateOfRegistration = incomeDateOfRegistration;
    }
 
    @Override
    public String toString() {
-
       String str = "идентификатор документа: "+this.getId()+"\nНазвание документа: "+this.getNameDoc()+
               "\nТекст документа: "+ this.getText()+"\nРегистрационный номер документа: "+this.getRegisterNumOfDoc()+
               "\nДата регистрации документа: "+ this.getDateOfRegistration()+"\nАвтор: "+this.getAuthor()+
               "\nОтправитель: "+sender+"\nАдресат: "+destination+ "\nИсходящий номер: "+incomeNumber+
               "\n" + "Исходящая дата регистрации: "+incomeDateOfRegistration;
-
       return str;
    }
 

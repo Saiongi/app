@@ -9,16 +9,11 @@ public class DocService {
 
     DocumentFactory documentFactory;
     DocFieldsStorage docFieldsStorage;
-
-    String[] regNums;
-
-    int globalIterator;
-
-    HashSet<String> regNumbers = new HashSet<String>();
+    HashSet<String> regNumbers;
 
     public DocService(){
+        regNumbers = new HashSet<String>();
         documentFactory = new DocumentFactory();
-
         docFieldsStorage = new DocFieldsStorage();
     }
 
@@ -26,24 +21,17 @@ public class DocService {
 
         String regNom = docFieldsStorage.getRegisterNumOfDoc();
         if (regNumbers.contains(regNom)){
-
             throw new DocumentExistsException("Exception! Document with this number already exists!");
-
         } else{
-
             doc.setRegisterNumOfDoc(regNom);//добавляем документу рег номер
             regNumbers.add(regNom);// добавляем рег номер в коллекцию уже существующих рег номеров
             doc.setDateOfRegistration(docFieldsStorage.getDate());//задаем дату
-
         }
     }
 
     public Document createDoc(String type){
         Document doc = documentFactory.createDocument(type);
         docFieldsStorage.saveDocField(doc);
-
-
-
         try {
             regDoc(doc);
             return doc;
@@ -51,7 +39,6 @@ public class DocService {
             e.printStackTrace();
         }
         return null;
-
     }
 
 }

@@ -14,7 +14,7 @@ public class TestDoc {
 
     public static void main(String[] args){
 
-// factory method
+        // factory method
         String [] typeDoc = new String[3];
         typeDoc[0]="Task";
         typeDoc[1]="Outgoing";
@@ -35,28 +35,15 @@ public class TestDoc {
                 allDoc.add(doc);
             }
         }
-      //  for (Document d: allDoc) System.out.println(d);
-
+        for (Document d: allDoc) {
+            System.out.println(d.toString());
+        }
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
         for (Document d: allDoc) {
             System.out.println(d.getAuthor() + " " + dateFormat.format(d.getDateOfRegistration())
                     + " " + d.getRegisterNumOfDoc());
 
         }
-
- /*       Iterator iter = allDoc.iterator();
-
-        while (iter.hasNext()) {
-         docum = (Document)iter.next();
-            (Document)iter.previous();
-            System.out.println(docum.getAuthor());
-            if (docum){
-                System.out.println(docum.getAuthor());
-            }
-        }
-*/
-
-
     }
 
 

@@ -20,7 +20,6 @@ public class Outgoing extends Document{
   public void setDeliveryMethod(String deliveryMethod) {
     this.deliveryMethod = deliveryMethod;
   }
-
   @Override
   public String toString() {
 
@@ -31,8 +30,5 @@ public class Outgoing extends Document{
 
     return str;
   }
-
-
-
 
 }
