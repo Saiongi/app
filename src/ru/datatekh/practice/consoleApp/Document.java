@@ -65,34 +65,46 @@ public abstract class Document implements Comparable   {
         this.author = author;
     }
 
+
+
+
+ /*
     @Override
     public int compareTo(Object obj) {
         Document entry = (Document) obj;
-
-
-
-
-        int result = dateOfRegistration.compareTo(entry.dateOfRegistration);
+  // result = registerNumOfDoc - entry.registerNumOfDoc;
+    //    if(result != 0) {
+      //      return (int) result / Math.abs( result );
+      //  }
+        int result = registerNumOfDoc.compareTo(entry.registerNumOfDoc);
         if(result != 0) {
             return result;
         }
-
-       /* result = registerNumOfDoc - entry.registerNumOfDoc;
+        result = dateOfRegistration.compareTo(entry.dateOfRegistration);
         if(result != 0) {
-            return (int) result / Math.abs( result );
+            return result;
         }
-        */
+        return 0;
+    }
+*/
+    @Override
+    public int compareTo(Object obj) {
+         Document entry = (Document) obj;
+        int result = author.compareTo(entry.author);
+        if (result!=0){
+            return result;
+        }
+        result = dateOfRegistration.compareTo(entry.dateOfRegistration);
+        if(result != 0) {
+            return result;
+        }
         result = registerNumOfDoc.compareTo(entry.registerNumOfDoc);
         if(result != 0) {
             return result;
         }
-
-        return 0;
-
-    }
-
-
-
+        
+    return 0;
+     }
 
 
 

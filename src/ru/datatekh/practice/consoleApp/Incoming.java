@@ -48,7 +48,7 @@ public class Incoming extends Document  {
               "\nТекст документа:"+ this.getText()+"\nРегистрационный номер документа:"+this.getRegisterNumOfDoc()+
               "\nДата регистрации документа:"+ this.getDateOfRegistration()+"\nАвтор:"+this.getAuthor()+
               "\nОтправитель"+sender+"\nАдресат:"+destination+ "\nИсходящий номер"+incomeNumber+
-              "\n" + "Исходящий номер документа"+incomeDateOfRegistration;
+              "\n" + "Исходящая дата регистрации"+incomeDateOfRegistration;
 
       return str;
    }
