@@ -1,7 +1,10 @@
 package ru.datatekh.practice.consoleApp;
 
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.TreeSet;
 
 /**
  * Created by Света on 21.06.2016.
@@ -17,12 +20,12 @@ public class TestDoc {
         typeDoc[1]="Outgoing";
         typeDoc[2]="Incoming";
 
-        //BaseDocumentFactory docs = new DocumentFactory();
+
 
         DocService docService = new DocService();
 
 
-        HashSet<Document> allDoc = new HashSet<Document>();
+        TreeSet<Document> allDoc = new TreeSet<Document>();
         int p;
         Document docum;
         for (int i=0; i<30;i++) {
@@ -30,14 +33,30 @@ public class TestDoc {
             Document doc = docService.createDoc(typeDoc[p]);
             if(doc != null){
                 allDoc.add(doc);
-
-             //   docum = (Document)doc;
-             //   docum.toString();
             }
-            //allDoc[i] = docs.createDocument(typeDoc[p]);
-            p = 0;
         }
-        for (Document d: allDoc) System.out.println(d);
+      //  for (Document d: allDoc) System.out.println(d);
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+        for (Document d: allDoc) {
+            System.out.println(d.getAuthor() + " " + dateFormat.format(d.getDateOfRegistration())
+                    + " " + d.getRegisterNumOfDoc());
+
+        }
+
+ /*       Iterator iter = allDoc.iterator();
+
+        while (iter.hasNext()) {
+         docum = (Document)iter.next();
+            (Document)iter.previous();
+            System.out.println(docum.getAuthor());
+            if (docum){
+                System.out.println(docum.getAuthor());
+            }
+        }
+*/
+
+
     }
 
 

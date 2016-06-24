@@ -1,5 +1,6 @@
 package ru.datatekh.practice.consoleApp;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Calendar;
 import java.util.HashMap;
@@ -11,7 +12,7 @@ import java.util.Random;
  */
 public class DocFieldsStorage {
     private int idStorage = 0;
-
+    SimpleDateFormat sdf;
 
     HashMap<Integer, String> nameDocStorage = new HashMap<Integer, String>(6);
     HashMap<Integer, String> textStorage = new HashMap<Integer, String>(6);
@@ -60,14 +61,16 @@ public class DocFieldsStorage {
 
     //генерируем рег номер
     public String getRegisterNumOfDoc() {
-        String regNom = "ном" + String.valueOf((int) (Math.random() * 20));
+        String regNom = String.valueOf((int) (Math.random() * 20)+"ном");
         return regNom;
     }
 
     //задаем дату
     public Date getDate() {
-
-        Date regDate = Calendar.getInstance().getTime();
+        Calendar calendar = Calendar.getInstance();
+        calendar =Calendar.getInstance();
+        calendar.set(Calendar.MILLISECOND,0);
+        Date regDate = calendar.getTime();
         return regDate;
     }
 

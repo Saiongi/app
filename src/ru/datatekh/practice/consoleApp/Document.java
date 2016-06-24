@@ -5,6 +5,7 @@ package ru.datatekh.practice.consoleApp;
  * Created by Света on 20.06.2016.
  */
 import java.util.Date;
+import java.util.Calendar;
 
 
 public abstract class Document implements Comparable   {
@@ -94,16 +95,18 @@ public abstract class Document implements Comparable   {
         if (result!=0){
             return result;
         }
+
         result = dateOfRegistration.compareTo(entry.dateOfRegistration);
         if(result != 0) {
             return result;
         }
-        result = registerNumOfDoc.compareTo(entry.registerNumOfDoc);
+
+       result = registerNumOfDoc.compareTo(entry.registerNumOfDoc);
         if(result != 0) {
             return result;
         }
-        
-    return 0;
+
+        return 0;
      }
 
 

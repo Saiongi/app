@@ -44,12 +44,15 @@ public class Incoming extends Document  {
    @Override
    public String toString() {
 
-      String str = "идентификатор документа:"+this.getId()+"\nНазвание документа:"+this.getNameDoc()+
-              "\nТекст документа:"+ this.getText()+"\nРегистрационный номер документа:"+this.getRegisterNumOfDoc()+
-              "\nДата регистрации документа:"+ this.getDateOfRegistration()+"\nАвтор:"+this.getAuthor()+
-              "\nОтправитель"+sender+"\nАдресат:"+destination+ "\nИсходящий номер"+incomeNumber+
-              "\n" + "Исходящая дата регистрации"+incomeDateOfRegistration;
+      String str = "идентификатор документа: "+this.getId()+"\nНазвание документа: "+this.getNameDoc()+
+              "\nТекст документа: "+ this.getText()+"\nРегистрационный номер документа: "+this.getRegisterNumOfDoc()+
+              "\nДата регистрации документа: "+ this.getDateOfRegistration()+"\nАвтор: "+this.getAuthor()+
+              "\nОтправитель: "+sender+"\nАдресат: "+destination+ "\nИсходящий номер: "+incomeNumber+
+              "\n" + "Исходящая дата регистрации: "+incomeDateOfRegistration;
 
       return str;
    }
+
+
+
 }
