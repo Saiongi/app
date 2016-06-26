@@ -6,6 +6,7 @@ package ru.datatekh.practice.consoleApp.reports;
 public class Report {
     public String createReport(){
     String strdoc;
+    return null;
     }
 
 

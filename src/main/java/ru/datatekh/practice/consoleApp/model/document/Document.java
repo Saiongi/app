@@ -1,21 +1,28 @@
 
 package ru.datatekh.practice.consoleApp.model.document;
 
-/**
- * Created by Света on 20.06.2016.
- */
 import ru.datatekh.practice.consoleApp.model.Storable;
-
 import java.util.Date;
 
+/**
+ * Класс Документ реализует интерфейс Comparable
+ * для возможности сортировки по полям Автор, Дата регистрации
+ * и  Регистрационный номер. Реализует интерфейс Storable, который
+ * в дальнейшем будет использован для сохранения документов.
+ */
 public abstract class Document implements Comparable, Storable {
-
-    private int id;                         //	идентификатор документа;
-    private String nameDoc;                 // название документа;
-    private String text;                    // текст документа;
-    private String registerNumOfDoc;    //регистрационный номер документа;
-    private Date dateOfRegistration;      //дата регистрации документа;
-    private String author;                  //автор документа.
+    //идентификатор документа;
+    private int id;
+    // название документа;
+    private String nameDoc;
+    // текст документа;
+    private String text;
+    //регистрационный номер документа;
+    private String registerNumOfDoc;
+    //дата регистрации документа;
+    private Date dateOfRegistration;
+    //автор документа.
+    private String author;
 
 
     @Override

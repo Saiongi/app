@@ -33,7 +33,6 @@ public class TestDoc {
 
         TreeSet<Document> allDoc = new TreeSet<Document>();
         int p;
-        Document docum;
         for (int i=0; i<30;i++) {
             p = (int) (Math.random() * 3);
             //Document doc = docService.createDoc(typeDoc[p]);
@@ -43,25 +42,21 @@ public class TestDoc {
                 allDoc.add(doc);
             }
         }
-
-        Map<String, TreeSet<Document>> docsByPersonMap = new TreeMap<String, TreeSet<Document>>();
         for (Document d: allDoc) {
             System.out.println(d.toString());
         }
-
+        Map<String, TreeSet<Document>> docsByPersonMap = new TreeMap<String, TreeSet<Document>>();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
-
         for (Document d: allDoc) {
             if (! docsByPersonMap.containsKey(d.getAuthor())){
                 docsByPersonMap.put(d.getAuthor(), new TreeSet<Document>());
             }
             docsByPersonMap.get(d.getAuthor()).add(d);
 
-            System.out.println(d.getAuthor() + " " + dateFormat.format(d.getDateOfRegistration())
-                    + " " + d.getRegisterNumOfDoc());
+          //  System.out.println(d.getAuthor() + " " + dateFormat.format(d.getDateOfRegistration())
+          //          + " " + d.getRegisterNumOfDoc());
 
         }
-
 
         for (String author : docsByPersonMap.keySet()){
             System.out.println("Document list by " + author);
