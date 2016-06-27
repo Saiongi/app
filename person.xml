@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <persons>
+        <persons>
+            <id>2</id>
+            <name>Иван</name>
+            <position>директор</position>
+            <secondName>Иванович</secondName>
+            <surname>Иванов</surname>
+        </persons>
+        <persons>
+            <id>2</id>
+            <name>Анна</name>
+            <position>секретарь</position>
+            <secondName>Ивановна</secondName>
+            <surname>Иванова</surname>
+        </persons>
+    </persons>
+</persons>

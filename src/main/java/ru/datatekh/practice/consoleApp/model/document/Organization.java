@@ -1,15 +1,21 @@
 package ru.datatekh.practice.consoleApp.model.document;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 import java.util.ArrayList;
 
 /**
  * Created by Света on 26.06.2016.
  */
+@XmlType(propOrder = { "orgName", "shortName", "orgBoss","orgTelNumbers" }, name = "organisation")
 public class Organization {
     private String orgName;//полное наименование;
     private String shortName;//краткое наименование;
-    private String boss;//руководитель;
-    private ArrayList<Integer> telNumbers; //контактные телефоны;
+    private String orgBoss;//руководитель;
+    private ArrayList<Integer> orgTelNumbers; //контактные телефоны;
+
     public String getOrgName(){
         return this.orgName;
     }
@@ -22,16 +28,18 @@ public class Organization {
     public void setShortName(String shortName){
         this.shortName=shortName;
     }
-    public String getBoss(){
-        return this.boss;
+    public String getOrgBoss(){
+        return this.orgBoss;
     }
-    public void setBoss(String boss){
-        this.boss=boss;
+    public void setOrgBoss(String orgBoss){
+        this.orgBoss = orgBoss;
     }
-    public ArrayList<Integer> getTelNumbers(){
-        return this.telNumbers;
+    public ArrayList<Integer> getOrgTelNumbers(){
+        return this.orgTelNumbers;
     }
-    public void setTelNumbers(ArrayList<Integer> telNumbers){
-        this.telNumbers=telNumbers;
+    @XmlElement(name = "orgTelNumbers")
+    @XmlElementWrapper
+    public void setOrgTelNumbers(ArrayList<Integer> orgTelNumbers){
+        this.orgTelNumbers = orgTelNumbers;
     }
 }

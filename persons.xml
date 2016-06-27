@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <person>
+        <persons>
+            <id>1</id>
+            <name>Иван</name>
+            <position>директор</position>
+            <secondName>Иванович</secondName>
+            <surname>Крузенштерн</surname>
+        </persons>
+        <persons>
+            <id>2</id>
+            <name>Анна</name>
+            <position>секретарь</position>
+            <secondName>Ивановна</secondName>
+            <surname>Арбузова</surname>
+        </persons>
+        <persons>
+            <id>3</id>
+            <name>Азат</name>
+            <position>бухгалтер</position>
+            <secondName>Рустемович</secondName>
+            <surname>Галеев</surname>
+        </persons>
+        <persons>
+            <id>4</id>
+            <name>Анастасия</name>
+            <position>Главный бухгалтер</position>
+            <secondName>Михайловна</secondName>
+            <surname>Бабкина</surname>
+        </persons>
+        <persons>
+            <id>5</id>
+            <name>Алла</name>
+            <position>Менеджер</position>
+            <secondName>Александровна</secondName>
+            <surname>Ахметова</surname>
+        </persons>
+        <persons>
+            <id>6</id>
+            <name>Анна</name>
+            <position>Менеджер по персоналу</position>
+            <secondName>Ивановна</secondName>
+            <surname>Гайсин</surname>
+        </persons>
+        <persons>
+            <id>7</id>
+            <name>Эдуард</name>
+            <position>заместитель директора</position>
+            <secondName>Данисович</secondName>
+            <surname>Мухаметов</surname>
+        </persons>
+        <persons>
+            <id>8</id>
+            <name>Кристина</name>
+            <position>ассистент</position>
+            <secondName>Дмитриевна</secondName>
+            <surname>Дворянинова</surname>
+        </persons>
+        <persons>
+            <id>9</id>
+            <name>Алексей</name>
+            <position>старший менеджер</position>
+            <secondName>Петрович</secondName>
+            <surname>Анянов</surname>
+        </persons>
+        <persons>
+            <id>10</id>
+            <name>Екатерина</name>
+            <position>менеджер</position>
+            <secondName>Николаевна</secondName>
+            <surname>Яблочкина</surname>
+        </persons>
+    </person>
+</persons>

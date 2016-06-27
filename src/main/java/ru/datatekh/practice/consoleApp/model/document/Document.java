@@ -24,7 +24,7 @@ public abstract class Document implements Comparable, Storable {
     //автор документа.
     private String author;
 
-
+    //
     @Override
     public String getTable() {
         return null;
@@ -91,28 +91,6 @@ public abstract class Document implements Comparable, Storable {
 
         return 0;
     }
-
-
-
- /*
-    @Override
-    public int compareTo(Object obj) {
-        Document entry = (Document) obj;
-  // result = registerNumOfDoc - entry.registerNumOfDoc;
-    //    if(result != 0) {
-      //      return (int) result / Math.abs( result );
-      //  }
-        int result = registerNumOfDoc.compareTo(entry.registerNumOfDoc);
-        if(result != 0) {
-            return result;
-        }
-        result = dateOfRegistration.compareTo(entry.dateOfRegistration);
-        if(result != 0) {
-            return result;
-        }
-        return 0;
-    }
-*/
       /*  @Override
     public String toString() {
         String str ="идентификатор документа:"+id+"\nНазвание документа:"+nameDoc+"\nТекст документа:"+
@@ -121,10 +99,4 @@ public abstract class Document implements Comparable, Storable {
         return str;
     }
 */
-
-
-
-
-
-
 }
