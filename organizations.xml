@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<organizations>
+    <organization>
+        <organization>
+            <id>1</id>
+            <orgBoss>Александров Вадим Анатоольевич</orgBoss>
+            <orgName>Федеральная служба государственной статистики</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>Росстат</shortName>
+        </organization>
+        <organization>
+            <id>2</id>
+            <orgBoss>Кудрявцев Сергей Антонович</orgBoss>
+            <orgName>Федеральное космическое агентство</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>Роскосмос</shortName>
+        </organization>
+        <organization>
+            <id>3</id>
+            <orgBoss>Андреев Максим Анатольевич</orgBoss>
+            <orgName>Общество с ограниченной ответственностью Ромашка</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>ООО Ромашка</shortName>
+        </organization>
+        <organization>
+            <id>4</id>
+            <orgBoss>Никитин Михаил Юрьевич</orgBoss>
+            <orgName>Общество с ограниченной ответственностью Эльдорадо</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>Эльдорадо</shortName>
+        </organization>
+        <organization>
+            <id>5</id>
+            <orgBoss>Александр Анатольевич Тынкован</orgBoss>
+            <orgName>Публичная компания МВидео</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>МВидео</shortName>
+        </organization>
+        <organization>
+            <id>6</id>
+            <orgBoss>Мазный Александр Александрович</orgBoss>
+            <orgName>Общество с ограниченной ответственностью Навигатор продаж</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>Навигатор продаж</shortName>
+        </organization>
+        <organization>
+            <id>7</id>
+            <orgBoss>Ольга Наумова</orgBoss>
+            <orgName>Пятерочка</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>Пятерочка</shortName>
+        </organization>
+        <organization>
+            <id>8</id>
+            <orgBoss>Андреев Андрей Андреевич</orgBoss>
+            <orgName>Матрица</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>Матрица</shortName>
+        </organization>
+        <organization>
+            <id>9</id>
+            <orgBoss>Михайлова Ольга Николаевна</orgBoss>
+            <orgName>Цифроград</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>Цифроград</shortName>
+        </organization>
+        <organization>
+            <id>10</id>
+            <orgBoss>Киролов Андрей Сергеевич</orgBoss>
+            <orgName>Башавтотранс</orgName>
+            <orgTelNumbers>
+                <orgTelNumbers>2304491</orgTelNumbers>
+                <orgTelNumbers>2304431</orgTelNumbers>
+                <orgTelNumbers>2304421</orgTelNumbers>
+            </orgTelNumbers>
+            <shortName>Башавтотранс</shortName>
+        </organization>
+    </organization>
+</organizations>

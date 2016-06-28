@@ -16,9 +16,11 @@ public class Department extends Staff {
     private String boss;//руководитель;
     private ArrayList<Integer> telNumbers; //контактные телефоны;
 
-    public String getDepartName(){
+    // Геттер departName
+    public String getDepartName(String departName, int q){
         return this.departName;
     }
+    // Сеттер departName
     public void setDepartName(String departName){
         this.departName=departName;
     }

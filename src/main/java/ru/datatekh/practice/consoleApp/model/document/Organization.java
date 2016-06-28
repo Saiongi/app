@@ -9,8 +9,8 @@ import java.util.ArrayList;
 /**
  * Created by Света on 26.06.2016.
  */
-@XmlType(propOrder = { "orgName", "shortName", "orgBoss","orgTelNumbers" }, name = "organisation")
-public class Organization {
+@XmlType(name = "organization")
+public class Organization extends Staff  {
     private String orgName;//полное наименование;
     private String shortName;//краткое наименование;
     private String orgBoss;//руководитель;
@@ -19,18 +19,21 @@ public class Organization {
     public String getOrgName(){
         return this.orgName;
     }
+    @XmlElement
     public void setOrgName(String orgName){
         this.orgName=orgName;
     }
     public String getShortName(){
         return this.shortName;
     }
+    @XmlElement
     public void setShortName(String shortName){
         this.shortName=shortName;
     }
     public String getOrgBoss(){
         return this.orgBoss;
     }
+    @XmlElement
     public void setOrgBoss(String orgBoss){
         this.orgBoss = orgBoss;
     }
