@@ -4,7 +4,8 @@ package ru.datatekh.practice.consoleApp.serveces;
  * Created by Света on 27.06.2016.
  */
 
-import ru.datatekh.practice.consoleApp.model.document.*;
+import ru.datatekh.practice.consoleApp.model.staff.Department;
+import ru.datatekh.practice.consoleApp.model.staff.Departments;
 
 import java.io.*;
 import java.util.ArrayList;

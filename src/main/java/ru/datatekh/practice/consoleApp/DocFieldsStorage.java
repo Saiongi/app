@@ -1,7 +1,7 @@
 package ru.datatekh.practice.consoleApp;
 
 import ru.datatekh.practice.consoleApp.model.document.*;
-import ru.datatekh.practice.consoleApp.model.document.Person;
+import ru.datatekh.practice.consoleApp.model.staff.Person;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Calendar;
@@ -85,24 +85,24 @@ public class DocFieldsStorage {
 
         public void saveDocField(Document doc){
             doc.setText(textStorage.get((int)(Math.random()*5)));
-            doc.setAuthor(personDocStorage.get((int)(Math.random()*5)));
+            doc.setAuthor(personDocStorage.get((int)(Math.random()*personDocStorage.size())));
            doc.setId(getId());
             doc.setNameDoc(nameDocStorage.get((int)(Math.random()*5)));
             // определяем тип документа, в зависимости от этого заполняем данные
             if (doc instanceof Incoming){
-                ((Incoming) doc).setSender(personDocStorage.get((int)(Math.random()*5)));
-                ((Incoming) doc).setDestination(personDocStorage.get((int)(Math.random()*5)));
+                ((Incoming) doc).setSender(personDocStorage.get((int)(Math.random()*personDocStorage.size())));
+                ((Incoming) doc).setDestination(personDocStorage.get((int)(Math.random()*personDocStorage.size())));
                 ((Incoming) doc).setIncomeNumber((int)(Math.random()*5));
                 ((Incoming) doc).setIncomeDateOfRegistration(generateDate());
             }else if (doc instanceof Outgoing){
-                ((Outgoing) doc).setDestination(personDocStorage.get((int)(Math.random()*5)));
+                ((Outgoing) doc).setDestination(personDocStorage.get((int)(Math.random()*personDocStorage.size())));
                 ((Outgoing) doc).setDeliveryMethod(deliveryMethodStorage.get((int)(Math.random()*5)));
             }else if (doc instanceof Task){
                 ((Task) doc).setDate(generateDate());
                 ((Task) doc).setPeriod(generateDate());
-                ((Task) doc).setExecutor(personDocStorage.get((int)(Math.random()*5)));
+                ((Task) doc).setExecutor(personDocStorage.get((int)(Math.random()*personDocStorage.size())));
                 ((Task) doc).setControl(getControl());
-                ((Task) doc).setControllerName(personDocStorage.get((int)(Math.random()*5)));
+                ((Task) doc).setControllerName(personDocStorage.get((int)(Math.random()*personDocStorage.size())));
 
 
             }

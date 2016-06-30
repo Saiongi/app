@@ -1,6 +1,6 @@
 package ru.datatekh.practice.consoleApp.model.document;
 
-import ru.datatekh.practice.consoleApp.model.document.Document;
+import ru.datatekh.practice.consoleApp.model.staff.Person;
 
 /**
  * Created by Света on 20.06.2016.

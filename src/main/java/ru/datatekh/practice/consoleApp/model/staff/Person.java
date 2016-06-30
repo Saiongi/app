@@ -1,15 +1,14 @@
-package ru.datatekh.practice.consoleApp.model.document;
+package ru.datatekh.practice.consoleApp.model.staff;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
-import java.text.ParseException;
 
 /**
  * Created by Света on 26.06.2016.
  */
 
 @XmlType(name = "person")
-public class Person extends Staff {
+public class Person extends Staff implements Comparable {
 
     private String surname;   //поле фамилия;
     private String  name;     //поле имя;
@@ -45,5 +44,20 @@ public class Person extends Staff {
         this.position=position;
     }
 
-
+    public int compareTo(Object obj) {
+        Person entry = (Person) obj;
+        int result = this.getSurname().compareTo(entry.getSurname());
+        if (result != 0) {
+            return result;
+        }
+        result = this.getName().compareTo(entry.getName());
+        if (result != 0) {
+            return result;
+        }
+        result = this.getSecondName().compareTo(entry.getSecondName());
+        if (result != 0) {
+            return result;
+        }
+        return 0;
+    }
 }

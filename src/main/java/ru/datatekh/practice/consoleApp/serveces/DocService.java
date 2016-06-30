@@ -3,8 +3,8 @@ package ru.datatekh.practice.consoleApp.serveces;
 import ru.datatekh.practice.consoleApp.DocFieldsStorage;
 import ru.datatekh.practice.consoleApp.model.document.Document;
 import ru.datatekh.practice.consoleApp.model.document.DocumentExistsException;
-import ru.datatekh.practice.consoleApp.model.document.Person;
-import ru.datatekh.practice.consoleApp.model.document.Persons;
+import ru.datatekh.practice.consoleApp.model.staff.Person;
+import ru.datatekh.practice.consoleApp.model.staff.Persons;
 import ru.datatekh.practice.consoleApp.serveces.factories.DocumentFactory;
 
 import java.util.HashSet;

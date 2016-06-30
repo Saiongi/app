@@ -1,4 +1,4 @@
-package ru.datatekh.practice.consoleApp.model.document;
+package ru.datatekh.practice.consoleApp.model.staff;
 
 /**
  * Created by Света on 28.06.2016.

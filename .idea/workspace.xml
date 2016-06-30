@@ -2,31 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fafa8460-6bfe-42bb-bec4-212d90d41e0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestMarshal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Departments.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/XMLParce.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/serveces/XMLParce.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/serveces/factories/JAXBExample.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_7.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160212.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestMarshal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/TestMarshal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Department.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Departments.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Organization.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Organizations.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Persons.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Staff.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/DocFieldsStorage.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/DocFieldsStorage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/TestDoc.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/TestDoc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Department.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Department.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Document.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Document.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Incoming.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Incoming.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Organizations.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Organizations.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Outgoing.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Outgoing.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Task.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/model/document/Task.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/serveces/DocService.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/serveces/DocService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/serveces/JAXBExample.class" afterPath="$PROJECT_DIR$/target/classes/ru/datatekh/practice/consoleApp/serveces/JAXBExample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.iml" afterPath="$PROJECT_DIR$/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocFieldsStorage.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocFieldsStorage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestDoc.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestDoc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Department.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Department.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Document.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Document.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Incoming.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Incoming.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Organizations.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Organizations.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Outgoing.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Outgoing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Task.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/DocService.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/DocService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/factories/JAXBExample.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/JAXBExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/JAXBExample.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/JAXBExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Department.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Department.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Departments.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Departments.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Organization.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Organization.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Organizations.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Organizations.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Person.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Person.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Persons.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Persons.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Staff.java" afterPath="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Staff.java" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,49 +70,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+              <folding>
+                <element signature="e#485#486#0" expanded="false" />
+                <element signature="e#520#521#0" expanded="false" />
+                <element signature="e#580#581#0" expanded="false" />
+                <element signature="e#616#617#0" expanded="false" />
+                <element signature="e#645#646#0" expanded="false" />
+                <element signature="e#677#678#0" expanded="false" />
+                <element signature="e#731#732#0" expanded="false" />
+                <element signature="e#761#762#0" expanded="false" />
+                <element signature="e#796#797#0" expanded="false" />
+                <element signature="e#834#835#0" expanded="false" />
+                <element signature="e#900#901#0" expanded="false" />
+                <element signature="e#942#943#0" expanded="false" />
+                <element signature="e#975#976#0" expanded="false" />
+                <element signature="e#1011#1012#0" expanded="false" />
+                <element signature="e#1073#1074#0" expanded="false" />
+                <element signature="e#1111#1112#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Persons.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Persons.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Organization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Organization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#586#587#0" expanded="false" />
+                <element signature="e#621#622#0" expanded="false" />
+                <element signature="e#681#682#0" expanded="false" />
+                <element signature="e#717#718#0" expanded="false" />
+                <element signature="e#751#752#0" expanded="false" />
+                <element signature="e#788#789#0" expanded="false" />
+                <element signature="e#852#853#0" expanded="false" />
+                <element signature="e#892#893#0" expanded="false" />
+                <element signature="e#924#925#0" expanded="false" />
+                <element signature="e#959#960#0" expanded="false" />
+                <element signature="e#1019#1020#0" expanded="false" />
+                <element signature="e#1057#1058#0" expanded="false" />
+                <element signature="e#1107#1108#0" expanded="false" />
+                <element signature="e#1148#1149#0" expanded="false" />
+                <element signature="e#1279#1280#0" expanded="false" />
+                <element signature="e#1329#1330#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#606#607#0" expanded="false" />
+                <element signature="e#644#645#0" expanded="false" />
+                <element signature="e#735#736#0" expanded="false" />
+                <element signature="e#777#778#0" expanded="false" />
+                <element signature="e#812#813#0" expanded="false" />
+                <element signature="e#849#850#0" expanded="false" />
+                <element signature="e#913#914#0" expanded="false" />
+                <element signature="e#952#953#0" expanded="false" />
+                <element signature="e#982#983#0" expanded="false" />
+                <element signature="e#1014#1015#0" expanded="false" />
+                <element signature="e#1068#1069#0" expanded="false" />
+                <element signature="e#1098#1099#0" expanded="false" />
+                <element signature="e#1145#1146#0" expanded="false" />
+                <element signature="e#1183#1184#0" expanded="false" />
+                <element signature="e#1305#1306#0" expanded="false" />
+                <element signature="e#1347#1348#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DocFieldsStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocFieldsStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="44">
+              <caret line="87" column="90" selection-start-line="87" selection-start-column="90" selection-end-line="87" selection-end-column="90" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#647#664#0" expanded="true" />
-                <element signature="e#2905#2906#0" expanded="true" />
-                <element signature="e#2954#2955#0" expanded="true" />
+                <element signature="e#487#504#0" expanded="false" />
+                <element signature="e#563#580#0" expanded="false" />
+                <element signature="e#730#747#0" expanded="false" />
+                <element signature="e#2902#2903#0" expanded="false" />
+                <element signature="e#2951#2952#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Incoming.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Incoming.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-              <folding>
-                <element signature="method#setIncomeDateOfRegistration#0;class#Incoming#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Outgoing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Outgoing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -107,16 +181,55 @@
       <file leaf-file-name="Document.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Document.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+            <state relative-caret-position="333">
+              <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="17" />
               <folding>
-                <element signature="e#1171#1172#0" expanded="true" />
-                <element signature="e#1203#1204#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
-                <element signature="e#1754#1755#0" expanded="true" />
-                <element signature="e#1797#1798#0" expanded="true" />
-                <element signature="e#1833#1834#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#913#914#0" expanded="false" />
+                <element signature="e#940#941#0" expanded="false" />
+                <element signature="e#965#966#0" expanded="false" />
+                <element signature="e#995#996#0" expanded="false" />
+                <element signature="e#1026#1027#0" expanded="false" />
+                <element signature="e#1052#1053#0" expanded="false" />
+                <element signature="e#1085#1086#0" expanded="false" />
+                <element signature="e#1120#1121#0" expanded="false" />
+                <element signature="e#1164#1165#0" expanded="false" />
+                <element signature="e#1202#1203#0" expanded="false" />
+                <element signature="e#1231#1232#0" expanded="false" />
+                <element signature="e#1263#1264#0" expanded="false" />
+                <element signature="e#1301#1302#0" expanded="false" />
+                <element signature="e#1331#1332#0" expanded="false" />
+                <element signature="e#1373#1374#0" expanded="false" />
+                <element signature="e#1417#1418#0" expanded="false" />
+                <element signature="e#1480#1481#0" expanded="false" />
+                <element signature="e#1536#1537#0" expanded="false" />
+                <element signature="e#1578#1579#0" expanded="false" />
+                <element signature="e#1624#1625#0" expanded="false" />
+                <element signature="e#1688#1689#0" expanded="false" />
+                <element signature="e#1748#1749#0" expanded="false" />
+                <element signature="e#1857#1858#0" expanded="false" />
+                <element signature="e#1893#1894#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Departments.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Departments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Organizations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Organizations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,13 +237,23 @@
       <file leaf-file-name="TestDoc.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestDoc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+            <state relative-caret-position="350">
+              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2622#2632#0" expanded="true" />
-                <element signature="e#3035#3062#0" expanded="true" />
+                <element signature="e#3465#3475#0" expanded="true" />
+                <element signature="e#3929#3956#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/CreatorIncoming.java" />
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/CreatorOutgoing.java" />
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/test.java" />
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/CreatorTask.java" />
@@ -176,7 +298,6 @@
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocumentFactory.java" />
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/Incoming.java" />
         <option value="$PROJECT_DIR$/src/ru/datatekh/practice/consoleApp/DocService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/Storable.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocumentFactory.java" />
@@ -200,12 +321,15 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestMarshal.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Document.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocFieldsStorage.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/DocService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestDoc.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Outgoing.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Incoming.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Departments.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocFieldsStorage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Person.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestDoc.java" />
       </list>
     </option>
   </component>
@@ -390,7 +514,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="serveces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consoleApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consoleApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staff" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,7 +648,7 @@
     <configuration default="false" name="TestDoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ru.datatekh.practice.consoleApp.model.document.*" />
+          <option name="PATTERN" value="ru.datatekh.practice.consoleApp.model.staff.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -946,12 +1138,12 @@
       <workItem from="1466656066672" duration="23861000" />
       <workItem from="1466743768714" duration="27118000" />
       <workItem from="1466938003837" duration="35310000" />
-      <workItem from="1467087467767" duration="29389000" />
+      <workItem from="1467087467767" duration="36541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167407000" />
+    <option name="totallyTimeSpent" value="174559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -969,7 +1161,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1709531" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20574887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.016793894" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13740458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1026,25 +1218,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Organization.java</url>
-          <line>45</line>
+          <url>file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Organization.java</url>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="86" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestMarshal.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestMarshal.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="100" />
+      <option name="time" value="102" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1165,14 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/DocumentExistsException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1204,18 +1376,6 @@
         <state relative-caret-position="-8">
           <caret line="425" column="16" selection-start-line="425" selection-start-column="16" selection-end-line="425" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1277,35 +1437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="50" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#658#659#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#829#830#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-            <element signature="e#1357#1358#0" expanded="false" />
-            <element signature="e#1399#1400#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Organizations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#492#506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/runtime/unmarshaller/Loader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1320,78 +1451,6 @@
           <caret line="231" column="0" selection-start-line="231" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
           <folding>
             <element signature="e#9107#9108#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Persons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#463#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Departments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#482#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Organization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocFieldsStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#647#664#0" expanded="true" />
-            <element signature="e#2905#2906#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding>
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
-            <element signature="e#1797#1798#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1412,31 +1471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestMarshal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/JAXBExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#513#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Outgoing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1444,7 +1482,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Incoming.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
             <element signature="method#setIncomeDateOfRegistration#0;class#Incoming#0" expanded="false" />
           </folding>
@@ -1459,14 +1497,196 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestMarshal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/serveces/JAXBExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#583#592#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#606#607#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#735#736#0" expanded="false" />
+            <element signature="e#777#778#0" expanded="false" />
+            <element signature="e#812#813#0" expanded="false" />
+            <element signature="e#849#850#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+            <element signature="e#952#953#0" expanded="false" />
+            <element signature="e#982#983#0" expanded="false" />
+            <element signature="e#1014#1015#0" expanded="false" />
+            <element signature="e#1068#1069#0" expanded="false" />
+            <element signature="e#1098#1099#0" expanded="false" />
+            <element signature="e#1145#1146#0" expanded="false" />
+            <element signature="e#1183#1184#0" expanded="false" />
+            <element signature="e#1305#1306#0" expanded="false" />
+            <element signature="e#1347#1348#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Organizations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Persons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#681#682#0" expanded="false" />
+            <element signature="e#717#718#0" expanded="false" />
+            <element signature="e#751#752#0" expanded="false" />
+            <element signature="e#788#789#0" expanded="false" />
+            <element signature="e#852#853#0" expanded="false" />
+            <element signature="e#892#893#0" expanded="false" />
+            <element signature="e#924#925#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#1019#1020#0" expanded="false" />
+            <element signature="e#1057#1058#0" expanded="false" />
+            <element signature="e#1107#1108#0" expanded="false" />
+            <element signature="e#1148#1149#0" expanded="false" />
+            <element signature="e#1279#1280#0" expanded="false" />
+            <element signature="e#1329#1330#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/document/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+            <element signature="e#940#941#0" expanded="false" />
+            <element signature="e#965#966#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+            <element signature="e#1026#1027#0" expanded="false" />
+            <element signature="e#1052#1053#0" expanded="false" />
+            <element signature="e#1085#1086#0" expanded="false" />
+            <element signature="e#1120#1121#0" expanded="false" />
+            <element signature="e#1164#1165#0" expanded="false" />
+            <element signature="e#1202#1203#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <element signature="e#1263#1264#0" expanded="false" />
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1331#1332#0" expanded="false" />
+            <element signature="e#1373#1374#0" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+            <element signature="e#1480#1481#0" expanded="false" />
+            <element signature="e#1536#1537#0" expanded="false" />
+            <element signature="e#1578#1579#0" expanded="false" />
+            <element signature="e#1624#1625#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1748#1749#0" expanded="false" />
+            <element signature="e#1857#1858#0" expanded="false" />
+            <element signature="e#1893#1894#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#520#521#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#616#617#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#677#678#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#761#762#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#834#835#0" expanded="false" />
+            <element signature="e#900#901#0" expanded="false" />
+            <element signature="e#942#943#0" expanded="false" />
+            <element signature="e#975#976#0" expanded="false" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1111#1112#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/model/staff/Departments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/DocFieldsStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="87" column="90" selection-start-line="87" selection-start-column="90" selection-end-line="87" selection-end-column="90" />
+          <folding>
+            <element signature="e#487#504#0" expanded="false" />
+            <element signature="e#563#580#0" expanded="false" />
+            <element signature="e#730#747#0" expanded="false" />
+            <element signature="e#2902#2903#0" expanded="false" />
+            <element signature="e#2951#2952#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/datatekh/practice/consoleApp/TestDoc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+        <state relative-caret-position="350">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2622#2632#0" expanded="true" />
-            <element signature="e#3035#3062#0" expanded="true" />
+            <element signature="e#3465#3475#0" expanded="true" />
+            <element signature="e#3929#3956#0" expanded="true" />
           </folding>
         </state>
       </provider>

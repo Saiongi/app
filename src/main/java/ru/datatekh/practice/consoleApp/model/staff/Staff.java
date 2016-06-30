@@ -1,4 +1,4 @@
-package ru.datatekh.practice.consoleApp.model.document;
+package ru.datatekh.practice.consoleApp.model.staff;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;

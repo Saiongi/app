@@ -3,7 +3,7 @@ package ru.datatekh.practice.consoleApp.model.document;
 /**
  * Created by Света on 20.06.2016.
  */
-import ru.datatekh.practice.consoleApp.model.document.Document;
+import ru.datatekh.practice.consoleApp.model.staff.Person;
 
 import java.util.Date;
 public class Incoming extends Document {
