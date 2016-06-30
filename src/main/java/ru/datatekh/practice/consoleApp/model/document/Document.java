@@ -22,7 +22,7 @@ public abstract class Document implements Comparable, Storable {
     //дата регистрации документа;
     private Date dateOfRegistration;
     //автор документа.
-    private String author;
+    private Person author;
 
     //
     @Override
@@ -64,17 +64,25 @@ public abstract class Document implements Comparable, Storable {
         this.dateOfRegistration = dateOfRegistration;
     }
 
-    public String getAuthor(){
+    public Person getAuthor(){
         return this.author;
     }
-    public void setAuthor(String author) {
+    public void setAuthor(Person author) {
         this.author = author;
     }
 
     @Override
     public int compareTo(Object obj) {
         Document entry = (Document) obj;
-        int result = author.compareTo(entry.author);
+        int result = author.getSurname().compareTo(entry.author.getSurname());
+        if (result!=0){
+            return result;
+        }
+        result = author.getName().compareTo(entry.author.getName());
+        if (result!=0){
+            return result;
+        }
+        result = author.getSecondName().compareTo(entry.author.getSecondName());
         if (result!=0){
             return result;
         }

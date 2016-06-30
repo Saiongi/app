@@ -7,8 +7,8 @@ import ru.datatekh.practice.consoleApp.model.document.Document;
 
 import java.util.Date;
 public class Incoming extends Document {
-   private String sender;  //отправитель;
-   private String destination; //адресат;
+   private Person sender;  //отправитель;
+   private Person destination; //адресат;
    private int incomeNumber; //исходящий номер;
    private Date incomeDateOfRegistration; //исходящая дата регистрации.
 
@@ -18,19 +18,19 @@ public class Incoming extends Document {
       return null;
    }
 
-   public String getSender(){
+   public Person getSender(){
       return this.sender;
    }
 
-   public void setSender(String sender) {
+   public void setSender(Person sender) {
       this.sender = sender;
    }
 
-   public String getDestination(){
+   public Person getDestination(){
       return this.destination;
    }
 
-   public void setDestination(String destination) {
+   public void setDestination(Person destination) {
       this.destination = destination;
    }
 
@@ -52,10 +52,13 @@ public class Incoming extends Document {
 
    @Override
    public String toString() {
-      String str = "идентификатор документа: "+this.getId()+"\nНазвание документа: "+this.getNameDoc()+
+      String str = "\n"+"идентификатор документа: "+this.getId()+"\nНазвание документа: "+this.getNameDoc()+
               "\nТекст документа: "+ this.getText()+"\nРегистрационный номер документа: "+this.getRegisterNumOfDoc()+
-              "\nДата регистрации документа: "+ this.getDateOfRegistration()+"\nАвтор: "+this.getAuthor()+
-              "\nОтправитель: "+sender+"\nАдресат: "+destination+ "\nИсходящий номер: "+incomeNumber+
+              "\nДата регистрации документа: "+ this.getDateOfRegistration()+"\nАвтор: "+this.getAuthor().getSurname()+" "+
+              this.getAuthor().getName()+" "+this.getAuthor().getSecondName()+
+              "\nОтправитель: "+sender.getSurname()+" "+ sender.getName()+" "+sender.getSecondName()+
+              "\nАдресат: "+destination.getSurname()+destination.getName() +
+              destination.getSecondName()+ "\nИсходящий номер: "+incomeNumber+
               "\n" + "Исходящая дата регистрации: "+incomeDateOfRegistration;
       return str;
    }

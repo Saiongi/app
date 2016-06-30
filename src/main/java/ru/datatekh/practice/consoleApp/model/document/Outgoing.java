@@ -6,7 +6,7 @@ import ru.datatekh.practice.consoleApp.model.document.Document;
  * Created by Света on 20.06.2016.
  */
 public class Outgoing extends Document {
-  private String destination;  //адресат
+  private Person destination;  //адресат
   private String deliveryMethod;  //способ доставки
 
 
@@ -15,10 +15,10 @@ public class Outgoing extends Document {
     return null;
   }
 
-  public String getDestination(){
+  public Person getDestination(){
     return this.destination;
   }
-  public void setDestination(String destination) {
+  public void setDestination(Person destination) {
     this.destination = destination;
   }
 
@@ -31,10 +31,12 @@ public class Outgoing extends Document {
   @Override
   public String toString() {
 
-    String str = "Идентификатор документа: "+this.getId()+"\nНазвание документа:"+this.getNameDoc()+
+    String str ="\n"+ "Идентификатор документа: "+this.getId()+"\nНазвание документа:"+this.getNameDoc()+
             "\nТекст документа: "+ this.getText()+"\nРегистрационный номер документа: "+this.getRegisterNumOfDoc()+
-            "\nДата регистрации документа: "+ this.getDateOfRegistration()+"\nАвтор: "+this.getAuthor()+
-            "\nАдресат: "+destination+ "\nСпособ доставки: "+deliveryMethod;
+            "\nДата регистрации документа: "+ this.getDateOfRegistration()+"\nАвтор: "+this.getAuthor().getSurname() +
+             " "+ this.getAuthor().getName()+" "+this.getAuthor().getSecondName()+
+            "\nАдресат: "+destination.getSurname() + " " + destination.getName() + " " +
+            destination.getSecondName()+ "\nСпособ доставки: "+deliveryMethod;
 
     return str;
   }

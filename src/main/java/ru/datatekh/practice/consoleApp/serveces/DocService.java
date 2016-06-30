@@ -3,6 +3,8 @@ package ru.datatekh.practice.consoleApp.serveces;
 import ru.datatekh.practice.consoleApp.DocFieldsStorage;
 import ru.datatekh.practice.consoleApp.model.document.Document;
 import ru.datatekh.practice.consoleApp.model.document.DocumentExistsException;
+import ru.datatekh.practice.consoleApp.model.document.Person;
+import ru.datatekh.practice.consoleApp.model.document.Persons;
 import ru.datatekh.practice.consoleApp.serveces.factories.DocumentFactory;
 
 import java.util.HashSet;
@@ -34,16 +36,13 @@ public class DocService {
         }
     }
 
-    public Document createDoc(String type){
-        Document doc = documentFactory.createDocument(type);
-        docFieldsStorage.saveDocField(doc);
-        try {
-            regDoc(doc);
-            return doc;
-        } catch (DocumentExistsException e) {
-            e.printStackTrace();
+    public void savePersons(Persons persons){
+        int i=0;
+        for (Person person: persons.persons) {
+            docFieldsStorage.getPerson(i, person);
+            i++;
         }
-        return null;
+
     }
 
     public Document createDoc(Class aClass) {

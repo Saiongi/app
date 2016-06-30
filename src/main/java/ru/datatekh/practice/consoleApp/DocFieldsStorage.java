@@ -1,15 +1,13 @@
 package ru.datatekh.practice.consoleApp;
 
-import ru.datatekh.practice.consoleApp.model.document.Document;
-import ru.datatekh.practice.consoleApp.model.document.Incoming;
-import ru.datatekh.practice.consoleApp.model.document.Outgoing;
-import ru.datatekh.practice.consoleApp.model.document.Task;
-
+import ru.datatekh.practice.consoleApp.model.document.*;
+import ru.datatekh.practice.consoleApp.model.document.Person;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Random;
+
 
 
 /**
@@ -21,13 +19,10 @@ public class DocFieldsStorage {
 
     HashMap<Integer, String> nameDocStorage = new HashMap<Integer, String>(6);
     HashMap<Integer, String> textStorage = new HashMap<Integer, String>(6);
-    HashMap<Integer, String> authorDocStorage = new HashMap<Integer, String>(6);
+    HashMap<Integer, Person> personDocStorage = new HashMap<Integer, Person>(6);
     HashMap<Integer, String> deliveryMethodStorage = new HashMap<Integer, String>(6);
 
-
     public DocFieldsStorage() {
-
-
         //создание коллекции для названия документов
         nameDocStorage.put(0, "Первый документ");
         nameDocStorage.put(1, "Второй документ");
@@ -42,13 +37,6 @@ public class DocFieldsStorage {
         textStorage.put(3, "какойто текст");
         textStorage.put(4, "Занудный текст");
         textStorage.put(5, "текст про котиков");
-        //создание коллекции для авторов документов
-        authorDocStorage.put(0, "Аксанов");
-        authorDocStorage.put(1, "Ахметов");
-        authorDocStorage.put(2, "Бабкин");
-        authorDocStorage.put(3, "Бадаев");
-        authorDocStorage.put(4, "Барышников");
-        authorDocStorage.put(5, "Батырханов");
         //создание коллекции для метода доставки
         deliveryMethodStorage.put(0, "Почта России");
         deliveryMethodStorage.put(1, "Экспресс-операторы");
@@ -63,13 +51,11 @@ public class DocFieldsStorage {
         idStorage++;
         return idStorage;
     }
-
     //генерируем рег номер
     public String getRegisterNumOfDoc() {
         String regNom = String.valueOf((int) (Math.random() * 20)+"ном");
         return regNom;
     }
-
     //задаем дату
     public Date getDate() {
         Calendar calendar = Calendar.getInstance();
@@ -78,7 +64,7 @@ public class DocFieldsStorage {
         Date regDate = calendar.getTime();
         return regDate;
     }
-
+        //генерация случайной даты
     public Date generateDate(){
         Calendar cal = Calendar.getInstance();
         int month=(int)(Math.random()*12);
@@ -87,34 +73,36 @@ public class DocFieldsStorage {
         Date date = cal.getTime();
         return date;
     }
-
-
-
-    public boolean getControl(){
+        public boolean getControl(){
         Random random = new Random();
         return random.nextBoolean();
-    }
+        }
+        public void getPerson(Integer i,Person p ){
+            personDocStorage.put(i,p);
+        }
+
+
 
         public void saveDocField(Document doc){
             doc.setText(textStorage.get((int)(Math.random()*5)));
-            doc.setAuthor(authorDocStorage.get((int)(Math.random()*5)));
+            doc.setAuthor(personDocStorage.get((int)(Math.random()*5)));
            doc.setId(getId());
             doc.setNameDoc(nameDocStorage.get((int)(Math.random()*5)));
             // определяем тип документа, в зависимости от этого заполняем данные
             if (doc instanceof Incoming){
-                ((Incoming) doc).setSender(authorDocStorage.get((int)(Math.random()*5)));
-                ((Incoming) doc).setDestination(authorDocStorage.get((int)(Math.random()*5)));
+                ((Incoming) doc).setSender(personDocStorage.get((int)(Math.random()*5)));
+                ((Incoming) doc).setDestination(personDocStorage.get((int)(Math.random()*5)));
                 ((Incoming) doc).setIncomeNumber((int)(Math.random()*5));
                 ((Incoming) doc).setIncomeDateOfRegistration(generateDate());
             }else if (doc instanceof Outgoing){
-                ((Outgoing) doc).setDestination(authorDocStorage.get((int)(Math.random()*5)));
+                ((Outgoing) doc).setDestination(personDocStorage.get((int)(Math.random()*5)));
                 ((Outgoing) doc).setDeliveryMethod(deliveryMethodStorage.get((int)(Math.random()*5)));
             }else if (doc instanceof Task){
                 ((Task) doc).setDate(generateDate());
                 ((Task) doc).setPeriod(generateDate());
-                ((Task) doc).setExecutor(authorDocStorage.get((int)(Math.random()*5)));
+                ((Task) doc).setExecutor(personDocStorage.get((int)(Math.random()*5)));
                 ((Task) doc).setControl(getControl());
-                ((Task) doc).setControllerName(authorDocStorage.get((int)(Math.random()*5)));
+                ((Task) doc).setControllerName(personDocStorage.get((int)(Math.random()*5)));
 
 
             }

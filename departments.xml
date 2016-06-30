@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<departments>
+    <departments>
+        <department>
+            <id>1</id>
+            <boss>Кудрявцев Сергей Анатоольевич</boss>
+            <departName>Департамент управления делами и контроля</departName>
+            <shortName>Департамент УДК</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>2</id>
+            <boss>Романов Сергей Владимирович</boss>
+            <departName>Департамент бюджетной методологии и финансовой отчетности в государственном секторе</departName>
+            <shortName>Департамент БМ и Фо в ГС</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>3</id>
+            <boss>Сазанов Максим Анатольевич</boss>
+            <departName>Департамент налоговой и таможенной политики</departName>
+            <shortName>Департамент НиТП</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>4</id>
+            <boss>Вышковский Михаил Юрьевич</boss>
+            <departName>Департамент государственного долга и государственных финансовых активов</departName>
+            <shortName>Депарамент ГДиГФА</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>5</id>
+            <boss>Барсуокв Анатольевич Тынкован</boss>
+            <departName>Департамент финансовой политики</departName>
+            <shortName>Департамент ФинПол</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>6</id>
+            <boss>Мазный Александр Александрович</boss>
+            <departName>Общество с ограниченной ответственностью Навигатор продаж</departName>
+            <shortName>Навигатор продаж</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>7</id>
+            <boss>Ерошкина Лариса Наумовна</boss>
+            <departName>Департамент межбюджетных отношений</departName>
+            <shortName>Департамент МО</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>8</id>
+            <boss>Ячевский Андрей Андреевич</boss>
+            <departName>Правовой департамент</departName>
+            <shortName>Правовой департамент</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>9</id>
+            <boss>Саакян Ольга Николаевна</boss>
+            <departName>Департамент правового регулирования бюджетных отношений</departName>
+            <shortName>Департамент ПРБО</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+        <department>
+            <id>10</id>
+            <boss>Рябушкин Андрей Сергеевич</boss>
+            <departName>Департамент бюджетной политики в отраслях экономики</departName>
+            <shortName>департамент БПвОЭ</shortName>
+            <telNumbers>
+                <telNumbers>2310491</telNumbers>
+                <telNumbers>2310431</telNumbers>
+                <telNumbers>2310421</telNumbers>
+            </telNumbers>
+        </department>
+    </departments>
+</departments>

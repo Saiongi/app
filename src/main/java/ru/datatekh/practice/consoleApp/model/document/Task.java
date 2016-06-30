@@ -10,9 +10,9 @@ import java.util.Date;
  public class Task extends Document {
     private Date date;  //дата выдачи поручения;
     private Date  period; //срок исполнения поручения; - до такой то даты
-    private String executor; // ответственный исполнитель;
+    private Person executor; // ответственный исполнитель;
     private boolean control; // признак контрольности;
-    private String controllerName;// контролер поручения.
+    private Person controllerName;// контролер поручения.
 
      @Override
      public String getTable() {
@@ -33,10 +33,10 @@ import java.util.Date;
         this.period = period;
     }
 
-    public String getExecutor(){
+    public Person getExecutor(){
         return this.executor;
     }
-    public void setExecutor(String executor) {
+    public void setExecutor(Person executor) {
         this.executor = executor;
     }
 
@@ -47,10 +47,10 @@ import java.util.Date;
         this.control = control;
     }
 
-    public String getControllerName(){
+    public Person getControllerName(){
         return this.controllerName;
     }
-    public void setControllerName(String controllerName) {
+    public void setControllerName(Person controllerName) {
         this.controllerName = controllerName;
     }
 
@@ -62,11 +62,13 @@ import java.util.Date;
          }else {
              cont = "Неконтрольный";
          }
-         String str ="\n\n"+"идентификатор документа:"+this.getId()+"\nНазвание документа:"+this.getNameDoc()+"\nТекст документа:"+
+         String str ="\n"+"идентификатор документа:"+this.getId()+"\nНазвание документа:"+this.getNameDoc()+"\nТекст документа:"+
                  this.getText()+"\nРегистрационный номер документа:"+this.getRegisterNumOfDoc()+"\nДата регистрации документа:"+
-                 this.getDateOfRegistration()+"\nАвтор:"+this.getAuthor()+"\nДата выдачи поручения:"+date+
-                 "\nСрок исполнения получения:"+period+"\nОтветственный исполнитель:"+executor+"\nПризнак контрольности:"+cont+
-                 "\nКонтроллер поручения:"+controllerName;
+                 this.getDateOfRegistration()+"\nАвтор:"+ this.getAuthor().getSurname()+" "+ this.getAuthor().getName()+" "+
+                 this.getAuthor().getSecondName()+"\nДата выдачи поручения:"+date+ "\nСрок исполнения получения:"+period+
+                 "\nОтветственный исполнитель:"+executor.getSurname()+" "+executor.getName()+
+                 " "+executor.getSecondName()+"\nПризнак контрольности:"+cont+
+                 "\nКонтроллер поручения:"+controllerName.getSurname()+" "+controllerName.getName()+" "+controllerName.getSurname();
          return str;
      }
 
